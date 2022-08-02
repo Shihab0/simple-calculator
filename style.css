@@ -1,0 +1,42 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myResult {
+    background-color: #555252;
+    outline: none;
+    border: none;
+    color: aliceblue;
+    width: 220px;
+    height: 60px;
+    text-align: right;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
+input[type="button"]:not(.c-btn){
+    width: 50px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.c-btn{
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+tbody{
+    background-color: black;
+   
+}
+table{
+    border-spacing: 0.5px 0.5px;
+}
